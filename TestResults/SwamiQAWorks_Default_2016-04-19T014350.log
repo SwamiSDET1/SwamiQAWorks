@@ -1,0 +1,33 @@
+﻿VS filter: testpath:TestAssembly:SwamiQAWorks/TestClass:SwamiQAWorks.Features.ContactUsFeature/ParameterizedTest:InvalidSubmission/TestMethod:InvalidSubmission(%22%22%2c%22%22%2c%22%22%2c%22Your+name+is+required%22%2c%22An+Email+address+is+required%22%2c%22Please+type+your+message%22%2cSystem.String%5b%5d)
+Discovering target: Default
+Discovering tests from assembly: C:\Users\swaminathan\Documents\Visual Studio 2015\Projects\SwamiQAWorks\SwamiQAWorks\bin\Debug\SwamiQAWorks.dll
+Appdomain Disposed
+Test Suite Dump
+#0: SwamiQAWorks/Default - 
+#1: Default - 
+#3: SwamiQAWorks - 
+#4: SwamiQAWorks.Features.ContactUsFeature - 
+#6: InvalidSubmission - 
+#10: InvalidSubmission("","","","Your name is required","An Email address is required","Please type your message",System.String[]) - TestAssembly:SwamiQAWorks/TestClass:SwamiQAWorks.Features.ContactUsFeature/ParameterizedTest:InvalidSubmission/TestMethod:InvalidSubmission(%22%22%2c%22%22%2c%22%22%2c%22Your+name+is+required%22%2c%22An+Email+address+is+required%22%2c%22Please+type+your+message%22%2cSystem.String%5b%5d)
+End: Test Suite Dump -- X
+Scheduler: considering #10 for thread #0
+Scheduler: using #10 for thread #0
+Test #10 is scheduled for thread #0
+Thread #0: creating new test thread executor for SwamiQAWorks, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\swaminathan\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.3.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Test #10/0 is started on thread #0
+T:Test environment set to staging
+T:Given I am on the Contact Us Page
+T:-> done: ContactUsSteps.GivenIAmOnTheContactUsPage() (4.0s)
+T:When as "" with"" I Attempt to send "" without filling in all the required fields
+T:-> done: ContactUsSteps.WhenAsWithIAttemptToSendWithoutFillingInAllTheRequiredFields("", "", "") (0.4s)
+T:Then the validation message should be "Your name is required","An Email address is required" and "Please type your message"
+T:-> done: ContactUsSteps.ThenTheValidationMessageShouldBeAnd("Your name is requ...", "An Email address ...", "Please type your ...") (0.1s)
+Test #10 is finished on thread #0 as Succeeded within 15.3039212 seconds
+Appdomain Disposed
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

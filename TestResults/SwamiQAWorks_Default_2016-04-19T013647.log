@@ -1,0 +1,33 @@
+﻿VS filter: testpath:TestAssembly:SwamiQAWorks/TestClass:SwamiQAWorks.Features.ContactUsFeature/ParameterizedTest:InvalidSubmission/TestMethod:InvalidSubmission(%22Joe%22%2c%22%22%2c%22message%22%2c%22%22%2c%22An+Email+address+is+required%22%2c%22%22%2cSystem.String%5b%5d)
+Discovering target: Default
+Discovering tests from assembly: C:\Users\swaminathan\Documents\Visual Studio 2015\Projects\SwamiQAWorks\SwamiQAWorks\bin\Debug\SwamiQAWorks.dll
+Appdomain Disposed
+Test Suite Dump
+#0: SwamiQAWorks/Default - 
+#1: Default - 
+#3: SwamiQAWorks - 
+#4: SwamiQAWorks.Features.ContactUsFeature - 
+#6: InvalidSubmission - 
+#9: InvalidSubmission("Joe","","message","","An Email address is required","",System.String[]) - TestAssembly:SwamiQAWorks/TestClass:SwamiQAWorks.Features.ContactUsFeature/ParameterizedTest:InvalidSubmission/TestMethod:InvalidSubmission(%22Joe%22%2c%22%22%2c%22message%22%2c%22%22%2c%22An+Email+address+is+required%22%2c%22%22%2cSystem.String%5b%5d)
+End: Test Suite Dump -- X
+Scheduler: considering #9 for thread #0
+Scheduler: using #9 for thread #0
+Test #9 is scheduled for thread #0
+Thread #0: creating new test thread executor for SwamiQAWorks, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\swaminathan\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.3.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Test #9/0 is started on thread #0
+T:Test environment set to staging
+T:Given I am on the Contact Us Page
+T:-> done: ContactUsSteps.GivenIAmOnTheContactUsPage() (2.0s)
+T:When as "Joe" with"" I Attempt to send "message" without filling in all the required fields
+T:-> done: ContactUsSteps.WhenAsWithIAttemptToSendWithoutFillingInAllTheRequiredFields("Joe", "", "message") (3.7s)
+T:Then the validation message should be "","An Email address is required" and ""
+T:-> done: ContactUsSteps.ThenTheValidationMessageShouldBeAnd("", "An Email address ...", "") (0.1s)
+Test #9 is finished on thread #0 as Succeeded within 12.9921234 seconds
+Appdomain Disposed
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
